@@ -11,9 +11,6 @@
     "ytdl-core": "^4.9.1",
     "ffmpeg-static": "^4.4.0"
   },
-  "engines": {
-    "node": "14.x"
-  },
   "author": "",
   "license": "ISC"
 }
