@@ -1,0 +1,19 @@
+{
+  "name": "telegram-bot-youtube-downloader",
+  "version": "1.0.0",
+  "description": "A Telegram bot that downloads and sends YouTube videos.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.58.0",
+    "ytdl-core": "^4.9.1",
+    "ffmpeg-static": "^4.4.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
