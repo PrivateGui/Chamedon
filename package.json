@@ -1,13 +1,14 @@
 {
   "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "A Telegram bot to send a zip file",
+  "description": "A Telegram bot to send and track files with MongoDB",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.55.0"
+    "node-telegram-bot-api": "^0.55.0",
+    "mongodb": "^5.7.0"
   },
   "engines": {
     "node": "16.x"
