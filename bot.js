@@ -53,7 +53,7 @@ bot.onText(/^\/start$/, (msg) => {
   const chatId = msg.chat.id;
   const user = msg.from.first_name;
   
-  bot.sendMessage(chatId, `سلام ${user} عزیز! 👋\n\nبه ربات ما خوش آمدید.\nبرای دریافت فایل، لطفا دستور زیر را وارد کنید:\n/start نام_فایل\n\n📁 فایل‌های خود را بدون پسوند وارد کنید.`);
+  bot.sendMessage(chatId, `سلام ${user} عزیز! 👋\n\nبه ربات ما خوش آمدید.`);
 });
 
 // Function to send the file based on user input (e.g., /start <anyfilename>)
