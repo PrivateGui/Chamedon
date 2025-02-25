@@ -1,1 +1,17 @@
-
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot to send a zip file",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.55.0"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
